@@ -1,43 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Brooklyn - pizzaria</title>
 </head>
+
 <body>
-        <header>
-              <div>
-                    <a href="#">Pizza Brooklyn</a>
-                    <nav>
-                        <a href="#sobre">sobre</a>
-                        <a href="#cardapio">cardapio</a>
-                        <a href="#contato">contato</a>
-                    </nav>
-              </div>
-        </header>
-        <main>
-            
-            <section id="sobre">
+    <header>
+        <div>
+            <a href="#">Pizza Brooklyn</a>
+            <nav>
+                <a href="#sobre">sobre</a>
+                <a href="#cardapio">cardapio</a>
+                <a href="#contato">contato</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <section id="sobre">
+            <div>
                 <div>
-                    <div>
-                        <h1>Pizza Brooklyn - melhor pizza do brooklyn</h1>
-                        <p>uma experiencia show!!!</p>
-                    </div>
-                    <figure>
-                        <img src="img/images.jpg" width="600"  alt="jake peralta com uma deliciosa pizza, aqui mesmo do pizza brooklyn! com a seguinte frase:'legal, legal, legal...
-                        mais você ja pediu sua pizza brooklyn hoje?'">
-                    </figure>
+                    <h1>Pizza Brooklyn - melhor pizza do brooklyn</h1>
+                    <p>uma experiencia show!!!</p>
                 </div>
+                <figure>
+                    <img src="img/images.jpg" width="600" alt="jake peralta com uma deliciosa pizza, aqui mesmo do pizza brooklyn! com a seguinte frase:'legal, legal, legal...
+                        mais você ja pediu sua pizza brooklyn hoje?'">
+                </figure>
+            </div>
 
-            </section>
-            <section id="cardapio">
-                <p>cardapio</p>
-            </section>
-            <section id="contato">
-                <p>contato</p>
-            </section>
+        </section>
+        <section id="cardapio">
+            <div>
+                <!-- ITEM 1-->
+                <article>
 
-        </main>
+                    <h3>pizza de peperone</h3>
+                    <p>Molho de tomate, mozzarella, peperone, oregáno e mangericão fresco.</p>
+                    <span>R$ 50,00</span>
+                    <img src="img\pizzaPE.jpg" width="600"
+                        alt="uma deliciosa pizza de peperone, com um corte de uma fatia segurada por uma espatula e um boné escrito brooklyn ao fundo.">
+                </article>
+                <!-- ITEM 2-->
+                <article>
+
+                    <h3>pizza de atum</h3>
+                    <p>Molho de tomate, mozzarella, atum, oregáno e azeitonas.</p>
+                    <span>R$ 50,00</span>
+                    <img src="img\pizzaAT.jpeg" width="600"
+                        alt="a nossa deliciosa pizza de atum acabando de sair do forno ainda na forma.">
+                </article>
+                <!-- ITEM 3-->
+                <article>
+
+                    <h3>pizza de calabresa</h3>
+                    <p>Molho de tomate, mozzarella, calabresa, oregáno, azeitonas e cebolas.</p>
+                    <span>R$ 50,00</span>
+                    <img src="img/pizzaCA2.jpg" width="600"
+                        alt="nossa deliciosa pizza de calabresa com bastante cebola e azeitonas com o funda da pizza com muita calabresa.">
+                </article>
+                <!-- ITEM 4-->
+                <article>
+                    <h3>pizza especial do jake</h3>
+                    <p>Molho de tomate, mozzarella, peperone, oregáno, mangericão fresco, salame e tomate.</p>
+                    <span>R$ 50,00</span>
+                    <img src="img/pizzaESP.jpg" width="600"
+                        alt="a nossa maravilhosa pizza especia do jake, formada por nossas melhores ingredientes.">
+                </article>
+                <!-- ITEM 5-->
+                <article>
+
+                    <h3>pizza de abacaxi</h3>
+                    <p>Molho de tomate, mozzarella, abacaxi.</p>
+                    <span>R$ 50,00</span>
+                    <img src="img\pizzaAB.jpg" width="600" alt="uma maravilhosa pizza de abacaxi super recheada.">
+                </article>
+                <!-- ITEM 6-->
+                <article>
+
+                    <h3>pizza de escarola</h3>
+                    <p>Molho de tomate, mozzarella,escarola, oregáno e azeitonas.</p>
+                    <span>R$ 50,00</span>
+                    <img src="img/pizzaESC.jpg" width="600" alt="uma deliciosa pizza de escarola.">
+                </article>
+            </div>
+        </section>
+        <section id="contato">
+            <div>
+                <h3>fale com a gente!</h3>
+                <form>
+                    <label>
+                        Nome:
+                        <input type="text" placeholder="digite o seu neme completo..." name="Nome" required>
+                    </label>
+                    <label>
+                        Telefone:
+                        <input type="tel" placeholder="(11) 55515-7625" name="Telefone" required>
+                    </label>
+                    <label>
+                        Mensagem:
+                        <textarea name="Mensagem" placeholder="escreva a sua mensagem..." rows="5"></textarea>
+                    </label>
+                    <input type="submit" name="enviar">
+                </form>
+            </div>
+        </section>
+
+    </main>
 </body>
+
 </html>
