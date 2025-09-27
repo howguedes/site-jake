@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Helvetica,  Arial,  sans-serif ;
+    color: #576767;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
