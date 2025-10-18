@@ -258,3 +258,20 @@ footer a {
 footer a:hover {
     opacity: 0.8;
 }
+
+@media (max-width: 870px) {
+
+    section {
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+    nav a {
+        padding: 10px 11px 10px 11px;
+    }
+    .hero-text {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
