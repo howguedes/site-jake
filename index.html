@@ -4,138 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza Brooklyn - pizzaria</title>
+    <title>Pizza Brooklyn - Pizzaria</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="topbar">
-        <div class="container row">
-            <a href="#">Pizza Brooklyn🍕🗽</a>
-            <nav>
-                <a href="#sobre">sobre</a>
-                <a href="#cardapio">cardapio</a>
-                <a href="#contato">contato</a>
-            </nav>
+        <div class="container row"> <a href="#" class="logo">Pizza Brooklyn🍕🗽</a>
+            <nav> <a href="#sobre">Sobre</a> <a href="#cardapio">Cardápio</a> <a href="#contato">Contato</a> </nav>
         </div>
     </header>
-    <main>
-
-        <section class="sobre">
-            <div>
-                <div>
-                    <h1>Pizza Brooklyn - melhor pizza do brooklyn</h1>
-                    <p>uma experiencia show!!!</p>
+    <main> <!-- SEÇÃO SOBRE -->
+        <section class="sobre" id="sobre">
+            <div class="container hero wrap">
+                <div class="hero-text">
+                    <h1>Pizza Brooklyn - a melhor pizza do Brooklyn</h1>
+                    <p>Uma experiência show!!!</p>
                 </div>
-                <figure>
-                    <img src="img/images.jpg" width="600" alt="jake peralta com uma deliciosa pizza, aqui mesmo do pizza brooklyn! com a seguinte frase:'legal, legal, legal...
-                        mais você ja pediu sua pizza brooklyn hoje?'">
+                <figure class="hero-img"> <img src="img/blema.png" width="600"
+                        alt="Jake Peralta com uma deliciosa pizza do Pizza Brooklyn. Frase: 'Legal, legal, legal... mas você já pediu sua pizza Brooklyn hoje?'">
                 </figure>
             </div>
-
-        </section>
+        </section> <!-- SEÇÃO CARDÁPIO -->
         <section class="alt" id="cardapio">
             <div class="container">
-            <h2>Cárdapio</h2>
-            <p class="section-subtitle"></p>
-            <div class="menu-grip">
-                <!-- ITEM 1-->
-                <article class="item">
-
-                    <h3>pizza de peperone</h3>
-                    <p>Molho de tomate, mozzarella, peperone, oregáno e mangericão fresco.</p>
-                    <span>R$ 50,00</span>
-                    <figure class="thumb">
-                    <img src="img\pizzaPE.jpg" width="600"
-                        alt="uma deliciosa pizza de peperone, com um corte de uma fatia segurada por uma espatula e um boné escrito brooklyn ao fundo.">
-                    </figure>
+                <h2>Cardápio</h2>
+                <p class="section-subtitle"></p>
+                <div class="menu-grip"> <!-- ITEM 1 -->
+                    <article class="item">
+                        <figure class="thumb"> <img src="img/jkpizza.png" width="600"
+                                alt="Uma deliciosa pizza de peperone, com um corte de uma fatia segurada por uma espátula e um boné escrito Brooklyn ao fundo.">
+                        </figure>
+                        <h3>Pizza de Peperone</h3>
+                        <p>Molho de tomate, mozzarella, peperone, orégano e manjericão fresco.</p> <span
+                            class="price">R$ 50,00</span>
+                    </article> <!-- ITEM 2 -->
+                    <article class="item">
+                        <figure class="thumb"> <img src="img/pizzaAT.jpeg" width="600"
+                                alt="Nossa deliciosa pizza de atum saindo do forno ainda na forma."> </figure>
+                        <h3>Pizza de Atum</h3>
+                        <p>Molho de tomate, mozzarella, atum, orégano e azeitonas.</p> <span class="price">R$
+                            50,00</span>
+                    </article> <!-- ITEM 3 -->
+                    <article class="item">
+                        <figure class="thumb"> <img src="img/pizzaCA2.jpg" width="600"
+                                alt="Nossa pizza de calabresa com cebola e azeitonas."> </figure>
+                        <h3>Pizza de Calabresa</h3>
+                        <p>Molho de tomate, mozzarella, calabresa, orégano, azeitonas e cebolas.</p> <span
+                            class="price">R$ 50,00</span>
+                    </article> <!-- ITEM 4 -->
+                    <article class="item">
+                        <figure class="thumb"> <img src="img/pizzaESP.jpg" width="600"
+                                alt="A pizza especial do Jake, com os melhores ingredientes."> </figure>
+                        <h3>Pizza Especial do Jake</h3>
+                        <p>Molho de tomate, mozzarella, peperone, orégano, manjericão fresco, salame e tomate.</p> <span
+                            class="price">R$ 50,00</span>
+                    </article> <!-- ITEM 5 -->
+                    <article class="item">
+                        <figure class="thumb"> <img src="img/gina_pizza.png" width="600"
+                                alt="Pizza de abacaxi super recheada."> </figure>
+                        <h3>Pizza de Abacaxi</h3>
+                        <p>Molho de tomate, mozzarella e abacaxi.</p> <span class="price">R$ 50,00</span>
+                    </article> <!-- ITEM 6 -->
+                    <article class="item">
+                        <figure class="thumb"> <img src="img/pizzaESC.jpg" width="600"
+                                alt="Pizza de escarola com azeitonas."> </figure>
+                        <h3>Pizza de Escarola</h3>
+                        <p>Molho de tomate, mozzarella, escarola, orégano e azeitonas.</p> <span class="price">R$
+                            50,00</span>
                     </article>
-                <!-- ITEM 2-->
-                <article class="item"></article>>
-
-                    <h3>pizza de atum</h3>
-                    <p>Molho de tomate, mozzarella, atum, oregáno e azeitonas.</p>
-                    <span>R$ 50,00</span>
-                    <img src="img\pizzaAT.jpeg" width="600"
-                        alt="a nossa deliciosa pizza de atum acabando de sair do forno ainda na forma.">
-                </article>
-                <!-- ITEM 3-->
-                <article>
-
-                    <h3>pizza de calabresa</h3>
-                    <p>Molho de tomate, mozzarella, calabresa, oregáno, azeitonas e cebolas.</p>
-                    <span>R$ 50,00</span>
-                    <img src="img/pizzaCA2.jpg" width="600"
-                        alt="nossa deliciosa pizza de calabresa com bastante cebola e azeitonas com o funda da pizza com muita calabresa.">
-                </article>
-                <!-- ITEM 4-->
-                <article>
-                    <h3>pizza especial do jake</h3>
-                    <p>Molho de tomate, mozzarella, peperone, oregáno, mangericão fresco, salame e tomate.</p>
-                    <span>R$ 50,00</span>
-                    <img src="img/pizzaESP.jpg" width="600"
-                        alt="a nossa maravilhosa pizza especia do jake, formada por nossas melhores ingredientes.">
-                </article>
-                <!-- ITEM 5-->
-                <article>
-
-                    <h3>pizza de abacaxi</h3>
-                    <p>Molho de tomate, mozzarella, abacaxi.</p>
-                    <span>R$ 50,00</span>
-                    <img src="img/gina_pizza.png" width="600" alt="uma maravilhosa pizza de abacaxi super recheada.">
-                </article>
-                <!-- ITEM 6-->
-                <article>
-
-                    <h3>pizza de escarola</h3>
-                    <p>Molho de tomate, mozzarella,escarola, oregáno e azeitonas.</p>
-                    <span>R$ 50,00</span>
-                    <img src="img/pizzaESC.jpg" width="600" alt="uma deliciosa pizza de escarola.">
-                </article>
+                </div>
             </div>
-            </div>
-        </section>
+        </section> <!-- SEÇÃO CONTATO -->
         <section id="contato">
-            <div>
-                <h3>fale com a gente!</h3>
-                <form>
-                    <label>
-                        Nome:
-                        <input type="text" placeholder="digite o seu neme completo..." name="Nome" required>
-                    </label>
-                    <label>
-                        Telefone:
-                        <input type="tel" placeholder="(11) 55515-7625" name="Telefone" required>
-                    </label>
-                    <label>
-                        Mensagem:
-                        <textarea name="Mensagem" placeholder="escreva a sua mensagem..." rows="5"></textarea>
-                    </label>
-                    <input type="submit" name="enviar">
-                </form>
-            </div>
-            <div>
-                <h3>onde estamos</h3>
-                <P>65 6th Ave, Brooklyn, NY 11217, Estados Unidos
-                    <strong>Abertos de seg á dom</strong> 11h as 00h
-                </P>
-                <figure>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.68510510799!2d-73.97675152345982!3d40.680906739517866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25baed8e8e28b%3A0xda8790edf468f913!2sNew%20York%20City%20Police%20Department%20-%2078th%20Precinct!5e0!3m2!1spt-BR!2sbr!4v1758977221419!5m2!1spt-BR!2sbr" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </figure>
+            <div class="container contact-grip">
+                <div>
+                    <h3>Fale com a gente!</h3>
+                    <form> <label> Nome: <input type="text" placeholder="Digite seu nome completo..." name="nome"
+                                required> </label> <label> Telefone: <input type="tel" placeholder="(11) 55515-7625"
+                                name="telefone" required> </label> <label> Mensagem: <textarea name="mensagem"
+                                placeholder="Escreva sua mensagem..." rows="5"></textarea> </label> <button
+                            type="submit" class="btn">Enviar</button> </form>
+                </div>
+                <div>
+                    <h3>Onde estamos</h3>
+                    <p>65 6th Ave, Brooklyn, NY 11217, Estados Unidos<br> <strong>Abertos de seg a dom:</strong> 11h às
+                        00h </p>
+                    <figure> <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.68510510799!2d-73.97675152345982!3d40.680906739517866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25baed8e8e28b%3A0xda8790edf468f913!2sNew%20York%20City%20Police%20Department%20-%2078th%20Precinct!5e0!3m2!1spt-BR!2sbr!4v1758977221419!5m2!1spt-BR!2sbr"
+                            width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </figure>
+                </div>
             </div>
         </section>
-
     </main>
     <footer>
-        <div>
-            <small>
-                
-                <strong>2025 ©</strong> By Nicolly Guedes
-            </small>
-            <a href="#">
-                ↑ Pizza Brooklyn
-            </a>
-        </div>
+        <div class="container row"> <small><strong>2025 ©</strong> By Nicolly Guedes</small> <a href="#">↑ Pizza
+                Brooklyn</a> </div>
     </footer>
 </body>
 
